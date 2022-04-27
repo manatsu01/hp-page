@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="shortcut icon" href="favicon.ico">
+<head>
+<meta charset="UTF-8">
+    <title>Commands / Mofuserver</title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@manatsu_1" />
+    <meta name="twitter:title" content="Mofumofu Server" />
+    <meta name="twitter:description" content="マインクラフト 純バニラ生活鯖　ver:1.18.2" />
+    <meta name="twitter:image" content="https://manatsu.tokyo/icon.png" />
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="home">
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="https://manatsu.tokyo/"><img src="../images/R.png" alt="manatsu.tokyo"></a></h1>
+<p><a href="https://minecraft.jp/servers/mc.manatsu.tokyo/vote"><strong class="color-theme">Please Vote By Clicking Here!</strong><br></a>
+</header>
+
+<!--メインメニュー-->
+<nav id="menubar">
+	<ul>
+	<li><a href="https://manatsu.tokyo/">Home</a></li>
+	<!--メインメニュー<li><a href="">サービス</a>
+		<ul>
+		<li><a href="service.html">サービス１</a></li>
+		<li><a href="service.html">サービス２</a></li>
+		<li><a href="service.html">サービス３</a></li>
+		<li><a href="service.html">サービス４</a></li>
+		</ul>
+	</li>-->
+	<li><a href="https://manatsu.tokyo/rules">Rules
+	</a></li>
+	<li><a href="https://manatsu.tokyo/commands">Commands
+	</a></li>
+	<li><a href="https://manatsu.tokyo/discord">Discord</a></li>
+	<li><a href="https://manatsu.tokyo/support">Support
+	</a></li>
+	<li><a href="https://manatsu.tokyo/banlist">Banlist
+	</a></li>
+	<li><a href="https://manatsu.tokyo/donate">Donate
+	</a></li>
+	</ul>
+	</nav>
+
+
+
+<main>
+
+<section>
+
+<h2>コマンドリスト / Allowed Commands</h2><br>
+主に以下のコマンドの使用を許可しています。<br>
+<h3>メイン</h3><br>
+/cp res　　　資源ワールドのメニューが開きます。(週1回リセットされます。) <br>
+/oldspawn　　　旧リスポーンにTPできます。
+<h3>バニラコマンド</h3><br>
+/tell [player-name] [message]　　　[player-name]に対して「[message]」とささやけます。内容は[player-name]以外のプレイヤーには送信されません。<br>
+/seed　　サーバーのシード値を確認できます。 <br>
+<h3>LWC(チェスト保護プラグイン)</h3><br>
+--チェストを設置すると、設置したプレイヤー以外がチェストを開けることができなくなります。<br>
+主にコマンド入力後、チェストなどアイテムを入れられるブロック、ドアなどに右クリックします。<br>
+/lock　　　ロックされます。(設置時にロックされるので解除済みのものに使用するコマンドです。) <br>
+/unlock　　　ロックが解除されます。<br>
+/cprivate ユーザー名　　　入力したユーザーとチェスト等を共有できます。<br>
+このプラグインはコマンドが多いので、詳しくはここ( <a href="https://wikiwiki.jp/mcjp/LWC">LWC Wiki</a> )をみてください。<br>
+<h3>BetterSleeping</h3><br>
+--夜間スキップに必要な人数を調整しています。<br>
+<h3>SetSpawn</h3><br>
+--初期スポーン地点の固定されます。（寝ることでリスポーン地点を変更できます。）<br>
+/spawn　　　　このコマンドを入力すると、初期スポーン地点にテレポートします。<br>
+
+<h3>GSit</h3>
+--座ったりできます。
+
+/gsit -- 座れます。階段に向かって右クリックでも座れます。<br>
+/glay -- 仰向け<br>
+/gcrawl -- 俯せ<br>
+/gspin -- 回る<br>
+</section>
+
+
+
+</main>
+
+
+<!--/#contents-->
+
+<div id="footermenu">
+	<ul>
+		<li class="title">メニュー</li>
+		<li><a href="index.html">ホーム</a></li>
+		<li><a href="rules.html">ルール</a></li>
+		<li><a href="support.html">異議申し立て</a></li>
+		<li><a href="banlist.html">Banlist</a></li>
+		<li><a href="donate.html">寄付について</a></li>
+		</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="https://manatsu.tokyo/">manatsu.tokyo</a> All Rights Reserved.</small>
+	</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+
+<!--biz56用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>
